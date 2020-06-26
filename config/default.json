@@ -1,0 +1,26 @@
+{
+  "project": {
+    "name": "Dental Manager"
+  },
+  "development": {
+    "database_url": "mongodb://localhost:27017/dental-manager",
+    "auth": {
+      "key": "zCuJiX92sO-zsy!iFwph4KmKroo5fh",
+      "tokenExpiresIn": "7d"  
+    }
+  },
+  "production": {
+    "database_url": "mongodb+srv://bd-dm-user:pqHJLXsX6TqSFwZ4@clusterdentalmanager-xtdqo.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "auth": {
+      "key": "(41O;`aZTZ#<10>DQe#VmOhu=6+_f7",
+      "tokenExpiresIn": "7d"  
+    }
+  },
+  "email": {
+    "host": "mail.dentalmanager.com.br",
+    "user": "no-reply@dentalmanager.com.br",
+    "passw": ";1N9Rp5.AxEb",
+    "port": 465,
+    "secure": true
+  }
+}
